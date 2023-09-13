@@ -23,7 +23,7 @@ function draw() {
 for(let i=0; i<400;i=i+40){
   console.log(i);
   noStroke()
-  fill(0,z,100-z);
+  fill(0,128,100-z);
   rect(200,i,150,42);
   s=s+1;
   z=2**(s);
