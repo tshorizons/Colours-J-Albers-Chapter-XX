@@ -10,7 +10,7 @@ function setup() {
 
 function draw() {
   colorMode(HSB,360,128,100);
-  background(240,128,100);
+  background(240,64,100);
 
 
   for(let i=0; i<400;i=i+40){
